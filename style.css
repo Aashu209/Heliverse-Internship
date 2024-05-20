@@ -1,0 +1,339 @@
+.navbar{
+    width: 100%;
+    height: 55px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+.span1{
+    font-family: sans-serif;
+    color: white;
+    font-stretch: 16px;
+    font-size: 25px;
+}
+.span2{
+    font-family: sans-serif;
+    color: green;
+    font-size: 25px;
+    font-stretch: 10px;
+}
+btn{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+/*Second Section*/
+#secondsec{
+    width: 100%;
+    height: 100vh;
+    padding-top: 27px;
+    background-color: #010818;
+}
+.secsec{
+     background-color: #010818;
+     display: flex;
+     justify-content: space-between;
+     padding-left: 25px;
+     padding-right: 25px;
+}
+.motionlogo{
+    width: 200px;
+    height: 55px;
+}
+/*Button for purchase*/
+.btn-light{
+ font-size: 18px;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+.btn-light:hover{
+    background-color: transparent;
+    color: #1ec279;
+   }
+
+.pt2secnd{
+    color: white;
+    padding-top: 90px;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+   gap: 230px;
+    
+}
+
+/*Side Heading*/
+.sideheading{
+    font-size: 1.3rem;
+}
+
+/*COLOR GRADIENT*/
+.paraspan{
+    background: -webkit-linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*heading*/
+h1{
+    font-size: 3.7rem;
+}
+
+/*COLOR GRADIENT*/
+.span3{
+    background: -webkit-linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Paragraph*/
+.paragraph{
+    color: gainsboro;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*Third section*/
+.thirdsec{
+    width: 100%;
+    height: 100vh;
+    padding-top: 27px;
+    background-color: #010818;
+
+}
+h2{
+    text-align: center;
+    color: gainsboro;
+    font-size: 1.5rem;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.userspics{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.stars{
+    width: 150px;
+    height: 25px;
+    padding-top: 10px;
+}
+.userpara{
+    padding-top: 15px;
+    color: whitesmoke;
+}
+/*FThirdsecpt(Third section Second Part)*/
+.thirdsecpt{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.leftside h2{
+    float: lefts;
+    display: inline;
+    font-size: 2.5rem;
+    color: gainsboro;
+}
+.leftside p{
+    color: gainsboro;
+    padding-top: 20px;
+    font-size: 1.1rem;
+}
+.leftside button{
+    border-radius: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: border-box;
+    border-width: 1px solid black;
+}
+.leftside button:hover{
+    border-radius: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    background: -webkit-linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: border-box;
+    border-width: 1px solid black;
+}
+
+.rightside img{
+    height: 220px;
+    width: 220px;
+    position: relative;
+    top: 30px;
+}
+
+/*FOURTH SEC*/
+.foutrhsec{
+    width: 100%;
+    height: 120vh;
+    background-color: #010818;
+    color: whitesmoke;
+}
+.foutrhsec h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.frthleft{
+    display: inline;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: #171029;
+    padding:  30px;
+}
+.frthright{
+    display: inline;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color:#171029;
+    padding:  30px;
+    position: relative;
+    top: 50px;
+}
+.frthcont{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.frthcont img{
+    width: 450px;
+    height: 350px;
+}
+
+/*Fifth SEction*/
+.fifthsec{
+    width: 100%;
+    height: 130vh;
+    background-color: #010818;
+    color: whitesmoke;
+    padding-top: 120px;
+}
+#mainfifthcont{
+    background: #171029;
+    border: 2px transparent black ;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.fifthcont{
+    display: inline;
+   text-align: center;
+}
+.fifthcont h4{
+font-size: 1.8rem;
+padding-top: 20px;
+padding-top: 50px;
+}
+.fifthcont p{
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+.fifthcont img{
+    width: 500px;
+    height: 70px;
+    padding-top: 20px;
+    position: relative;
+    left: 370px;
+    margin-bottom: 50px;
+}
+.fifth2{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 150px;
+}
+.fifth2 h1{
+    font-size: 2.5rem;
+}
+.fifth2 p{
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+/*Sixth Section*/
+.sixsec{
+    width: 100%;
+    height: 78vh;
+    background-color: #010818;
+    color: gainsboro;
+
+}
+#sixmain{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 50px;
+}
+#sixmain img{
+    width: 180px;
+    height: 180px;
+    
+}
+#sixmain div{
+    background-color: #171029;
+    border-radius: 20px;
+    display: inline;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.sixsub1{
+    margin-left: 20px;
+    padding: 20px;
+    
+   
+}
+.sixsub3{
+    margin-right: 20px;
+    padding: 20px;
+}
+.sixsub2{
+    padding: 20px;
+}
+footer{
+    background-color: #171029;
+    color: white;
+    background: -webkit-linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.secondfoot{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
+}
